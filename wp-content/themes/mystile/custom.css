@@ -1,0 +1,63 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+	
+	/*----css for industry-info-page------*/
+	#industry-info-img{
+		float: left;
+		margin: 0px 0px 5px 5px;
+		width: 35%;	
+	}
+	
+	#industry-info-text{
+		float: right;
+		margin: 0px 0px 5px 0px;
+		width: 60%;	
+	}
+	
+	/*----css for uas-applications-page------*/
+	#uas-app-left{
+		float: left;
+		margin: 5px 5px;
+		width: 45%
+	}
+	
+	#uas-app-right{
+		float: right;
+		margin: 5px 5px;
+		width:45%;
+	}
+	
+	#header .site-description {
+	  font-family: "Open Sans", sans-serif;
+	  font-size: 1em;
+	  color: #F51157;/*#9f9693;*/
+	}
+	
+	#header {
+    padding-bottom: 0em;
+    padding-top: 1em;
+  }
+	
+}

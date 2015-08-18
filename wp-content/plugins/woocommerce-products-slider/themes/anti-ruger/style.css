@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  box-shadow: 0 0 4px -3px rgb(0, 0, 0);
+  margin: 0 10px;
+  position: relative;
+}
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-thumb {
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-thumb img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.items-info {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  display: block;
+  left: 0;
+
+  position: absolute;
+  transform: translateY(-500px);
+  transition: all 0.8s ease 0s;
+  width: 100%;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items:hover div.items-info{
+
+	transform: translateY(0px);
+	}
+
+
+
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-title {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart {
+  text-align: center;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart p {
+  border: medium none !important;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart span.amount {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart del{
+	
+	}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart del span.amount{
+	
+	}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart ins {
+ 
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart ins span.amount{
+	
+	}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart span.amount{
+	
+	}
+
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart .amount,
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart del,
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart ins{
+	display:none; }
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart a.add_to_cart_button {
+  background: none repeat scroll 0 0 rgb(13, 225, 133);
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  text-shadow: none;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart a.added_to_cart {
+  background: none repeat scroll 0 0 rgb(13, 225, 133);
+  border: medium none;
+  border-radius: 0;
+  box-shadow: none;
+  color: rgb(68, 68, 68);
+  font-size: 12px;
+  line-height: 12px;
+  margin-top: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-cart a.added {
+  display: none;
+}
+
+
+
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-price {
+  text-align: center;
+}
+
+
+.wcps-container .wcps-anti-ruger div.wcps-items div.wcps-items-price span.amount {
+  background: #ddd;
+  border: 1px solid #fff;
+  padding: 4px 10px;
+}
+
+
+.wcps-container .wcps-anti-ruger .owl-buttons{}
+.wcps-container .wcps-anti-ruger .owl-controls .owl-buttons .owl-prev {
+  background-image: url("images/arrow-prev.png");
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 0;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  width: 30px;
+  height: 20px;
+}
+
+
+
+.wcps-container .wcps-anti-ruger .owl-controls .owl-buttons .owl-next {
+  background-image: url("images/arrow-next.png");
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 0;
+  color: rgb(0, 0, 0);
+  padding: 0;
+  width: 30px;
+  height: 20px;
+}
+
+
+
+.wcps-container .wcps-anti-ruger .owl-controls .owl-buttons div.owl-prev:hover{
+	background-image: url("images/arrow-prev.png") ;
+	background-color:#d5d5d5 !important; }
+
+
+.wcps-container .wcps-anti-ruger .owl-controls .owl-buttons div.owl-next:hover{
+	background-image: url("images/arrow-next.png");
+	background-color:#d5d5d5 !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
